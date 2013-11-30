@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+  <defaultCache />
+
+  <cache name="offHeapCache"
+     maxEntriesLocalHeap="100"
+     eternal="false"
+     overflowToOffHeap="true"
+     maxElementsInMemory="30"
+     maxBytesLocalOffHeap="100M"
+     memoryStoreEvictionPolicy="LFU">
+    <persistence strategy="none" />
+  </cache>
+</ehcache>
